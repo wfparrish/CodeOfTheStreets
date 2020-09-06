@@ -1,0 +1,22 @@
+7/19/2020
+
+Started Code of the Streets website. Used Max_CSS_Udemy and the tutorial
+as the foundation.
+
+8/9/2020
+
+Must add attribution for the icons to the app:
+flaticon.com
+Icons made by <a href="https://www.flaticon.com/free-icon/boss_2683431?term=business%20boss&page=4&position=59" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+<div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+8/11/2020
+
+There is an issue with the banner being larger than the area underneath it.
+I tried a couple of ideas, but I do not like the effects. 
+
+8/15/2020
+
+How to connect to Medium API to use the Code of the Streets blog posts:
+https://github.com/Medium/medium-api-docs

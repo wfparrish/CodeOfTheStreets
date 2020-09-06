@@ -1,0 +1,218 @@
+#organization-overview {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/Denver_Skyline_2.jpg") center/cover no-repeat border-box;
+  /* background-size: cover;
+  background-position: 0px 5%; */
+  width: 100vw;
+  height: 50vh;
+  /* margin-top: 1.9rem; */
+  position: relative;
+}
+
+#organization-overview h1 {
+  color: white;
+  font-size: 2.1rem;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 4%;
+  left: 3%;
+  font-size: 2.0rem;
+}
+
+@media (min-width: 40rem) and (min-height: 60rem) {
+  #organization-overview {
+    height: 43vh;
+    background-position: 50% 25%
+  }
+
+  #organization-overview h1 {
+    top: 4%;
+    left: 3%;
+    font-size: 2.6rem;
+  }
+}
+
+/* @media (min-width: 60rem) {
+  #organization-overview {
+    height: 60vh;
+    background-position: 50% 25%
+  }
+
+  #organization-overview h1 {
+    font-size: 4rem;
+  }
+} */
+
+.section-title {
+  color: #446692;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  font-size: 1.9rem;
+}
+
+.path {
+  background: #d49b50;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid white;
+  min-width: 13rem;
+}
+
+.path--highlighted {
+  background: #d49b50;
+  color: white;
+}
+
+.path__annotation {
+  background: white;
+  color: #149e40;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.path__title {
+  color: #0e4f1f;
+}
+
+.path__price {
+  color: white;
+}
+
+.path--highlighted .path__title {
+  color: white;
+}
+
+.path--highlighted .path__price {
+  color: #0e4f1f;
+}
+
+.path__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.path__feature {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 40rem) {
+  .path__list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .path {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 24rem;
+  }
+
+
+  .path--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.paths-section {
+  background-color: #d3d282;
+  padding: 1.2rem;
+}
+
+#key-benefits {
+  background: #2ba552;
+  margin-top: 0px;
+  padding: 1rem;
+}
+
+#key-benefits .section-title {
+  color: white;
+  margin: 2rem;
+}
+
+.key-benefit__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-benefit__image {
+  background: #446692;
+  width: 8rem;
+  height: 8rem;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.key-benefit__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 40rem) {
+  .key-benefit {
+    display: inline-block;
+    width: 30%;
+    max-width: 24rem;
+    vertical-align: top;
+  }
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #438a56;
+  background: #438a56;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #d3d282;
+  border-color: #d3d282;
+}
+
+.modal__action--negative {
+  background: #446692;
+  border-color: #446692;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #7bc2e2;
+  border-color: #7bc2e2;
+}
