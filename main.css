@@ -1,10 +1,9 @@
 #organization-overview {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/Denver_Skyline_2.jpg") center/cover no-repeat border-box;
-  /* background-size: cover;
-  background-position: 0px 5%; */
+  background: linear-gradient( rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)), 
+              url("./images/Denver_Skyline_2.jpg") center/cover no-repeat border-box;
   width: 100vw;
   height: 50vh;
-  /* margin-top: 1.9rem; */
   position: relative;
 }
 
